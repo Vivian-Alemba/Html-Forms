@@ -6,6 +6,13 @@ body{
     text-align: center;
    
 }
+li a {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 16px;
+    text-decoration: none;
+  }
 /* .details li ,a{
     display: block;
     text-align: end;
@@ -30,6 +37,14 @@ body{
 }
 .navbar li{
     float: right;
+}
+.intuit-info ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
 }
 form{
     border: 1px solid #c6c7cc;
@@ -59,6 +74,9 @@ form{
 
 .btn-recaptcha{
    padding-top: 30px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px
    
 }
 input{
