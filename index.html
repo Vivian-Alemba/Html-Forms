@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        
+      
        
-           <ul>
-                <li ><button type="submit">Sign in</button></li>
-            <li>Already have an intuit account?<a class="forget-password" href="#">I forgot my User ID or Password</a></li>
-           
-           
-        </ul>
-         
-         
-       
-        </nav>
-
-    <header class="intuit-info">
-        <h1>Intuit</h1>
-        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
     
-         </header>
+<header>
+     <div class="intuit-info">
+            <ul>
+                    <li><input class="btn-sign" type="submit" name="submit" value="Sign In"></li>
+                    <li>Already have an intuit account?
+                        <ul>
+                    <li><a class="forget-password" href="#">I forgot my User ID or Password</a></li>
+                  
+                  </ul>
+                 
+      </div>
+        </header>
+        
+    <div class="images">
+            <h1 style="text-align:center;margin-left:25%">Intuit</h1>
+       
+        <img src="img/water.png" alt=""><a href=""> mint</a>
+        <img src="img/water.png" alt=""><a href="">QuickBooks</a> 
+        <img src="img/water.png" alt=""><a href="">turbotax</a> 
+    </div>
+      
+   
+       
 
         <form action="">
             <h3 style="text-align:center">Create an Intuit account</h3>
@@ -39,35 +42,43 @@
             <fieldset class="sign-info" >
                    <label>Email Address
                     <input type="email" name="email" required>
-                    <small>Standard call, messaging or data rates may apply.</small><br>
+                    <small>Standard call, messaging or data rates may apply.</small><br><br>
                    </label>
                     <label>Phone (recommended)
                     <input  type="tel" name="tel" required>
                     </label>
-                    <label>Password
+                    <label style="text-align:left">Password
                     <input type="password" name="pass" required>
                     </label>
-                    <input style="background:blue;color:white" class="btn" type="submit" name="submit" value="Create Account">
+                    <input style="background:blue;color:white;padding:10px" class="btn" type="submit" name="submit" value="Create Account">
 
            </fieldset>
            <fieldset class="more-details" >
-           <p style="text-align:center">By clicking Create account, you agree to ourand have read and acknowledge our
-       </p>
-       <button class="btn-recaptcha">Invisible reCAPTCHA by Google Privacy Policy and Terms of Us</button>
-    </fieldset>
+           <p style="text-align:center">By clicking Create account, you agree to our <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement</a> </p>
+          
+           </fieldset>
+           <fieldset style="background:lightgrey">
+                <p class="btn-recaptcha">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href=""> Terms</a> of Us </p>
+
+           </fieldset>
+      
+      
+   
             </form>
             <footer>
-                <div>
-            <ul style="display:inline-block">
+                <div class="footer-details">
+            <ul>
            <li style="float:left"><a href="#">Legal</a> </li>
            <li style="float:left"><a href="#"> Privacy</a></li>
            <li style="float:left"><a href="#">Security</a> </li>
-        </div>
-        <div>
-            <p style="text-align:center"><small> 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-                    Terms and conditions, features, support, pricing, and service options subject to change without notice.</small></p>
-        </div>
         </ul>
+        </div>
+        <div class="terms-details">
+            <p><small>2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks,
+                 QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</small></p>
+                 <p><small> and conditions, features, support, pricing, and service options subject to change without notice.</small></p>
+        </div>
+      
     </footer>
 
     
